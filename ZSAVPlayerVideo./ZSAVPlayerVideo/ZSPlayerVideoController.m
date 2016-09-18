@@ -48,6 +48,7 @@ static const CGFloat kVideoPlayerControllerAnimationTimeInterval = 0.3f;
 ///系统音量slider
 @property (nonatomic,strong) UISlider *volumSlider;
 
+@property (nonatomic,strong) UIButton *lockButton;
 @end
 @implementation ZSPlayerVideoController
 
