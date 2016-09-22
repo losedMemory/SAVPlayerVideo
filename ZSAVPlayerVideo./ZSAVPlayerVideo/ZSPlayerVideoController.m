@@ -53,7 +53,7 @@ static const CGFloat kVideoPlayerControllerAnimationTimeInterval = 0.3f;
     
     if ([UIApplication sharedApplication].statusBarStyle != UIStatusBarStyleLightContent) {
         
-        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+//        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     }
     
     [view addSubview:self.view];//供外部调用
