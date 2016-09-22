@@ -141,6 +141,7 @@ static const CGFloat kVideoControlBarAutoFadeOutTimeInterval = 5.0;
             [self animationShow];
             
             [[UIApplication sharedApplication]setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+        
         }
     }
     
@@ -224,7 +225,7 @@ static const CGFloat kVideoControlBarAutoFadeOutTimeInterval = 5.0;
         
         _topBar = [[UIView alloc] init];
         
-        _topBar.accessibilityIdentifier = @"topBar";
+        _topBar.accessibilityIdentifier = @"TopBar";
         
         _topBar.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
     }
@@ -364,6 +365,9 @@ static const CGFloat kVideoControlBarAutoFadeOutTimeInterval = 5.0;
         [_backButton setImage:[UIImage imageNamed:@"zx-video-banner-back"] forState:UIControlStateNormal];
         
         //设置内部控件的
+        _backButton.contentEdgeInsets = UIEdgeInsetsMake(5, 0, -5, 0);
+        
+        _backButton.imageEdgeInsets = UIEdgeInsetsMake(6, 6, 6, 6);
     }
     
     return _backButton;

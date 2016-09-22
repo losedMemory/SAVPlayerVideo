@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
 }
 //播放本地视频
 - (IBAction)playLocalVideo:(id)sender {

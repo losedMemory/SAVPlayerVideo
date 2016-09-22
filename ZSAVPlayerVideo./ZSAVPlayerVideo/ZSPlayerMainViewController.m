@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
+//    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
     
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     
@@ -43,7 +43,7 @@
             
             __strong typeof(self) strongSelf = weakSelf;
             
-            [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleDefault];
+            [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
             
             [strongSelf.navigationController popViewControllerAnimated:YES];
             
@@ -63,6 +63,11 @@
 - (void)dealloc{
     
 
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)didReceiveMemoryWarning {

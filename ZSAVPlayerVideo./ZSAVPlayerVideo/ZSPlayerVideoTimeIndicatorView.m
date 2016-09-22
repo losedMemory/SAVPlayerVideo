@@ -109,7 +109,7 @@ static const CGFloat kTimeIndicatorAutoFadeOutTimeInterval = 1.0;
 ///隐藏视图
 - (void)animationHide{
     
-    [UIView animateWithDuration:3 animations:^{
+    [UIView animateWithDuration:.3 animations:^{
         
         self.alpha = 0;
         

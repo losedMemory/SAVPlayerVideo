@@ -11,8 +11,6 @@
 #import "ZSPlayerVideoTimeIndicatorView.h"
 #import <AVFoundation/AVFoundation.h>
 
-#define kZSPlayerControlViewHideNotification @"ZXPlayerControlViewHideNotification"
-
 typedef NS_ENUM(NSInteger,ZSPanDirection) {
     
     ZSPanDirectionHorizontal,//横向移动
@@ -370,7 +368,7 @@ static const CGFloat kVideoPlayerControllerAnimationTimeInterval = 0.3f;
         return;
     }
     
-    //Home键在底部
+       //Home键在底部
     [self changeDeviceOrientation:UIDeviceOrientationPortrait];
     
 }

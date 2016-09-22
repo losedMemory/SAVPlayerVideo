@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSs-gB-eE3">
-                                <rect key="frame" x="255" y="236" width="90" height="30"/>
+                                <rect key="frame" x="255" y="214" width="90" height="30"/>
                                 <state key="normal" title="播放本地视频"/>
                                 <connections>
                                     <action selector="playLocalVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8aI-al-eEk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0h2-xo-tr1">
-                                <rect key="frame" x="255" y="390" width="90" height="30"/>
+                                <rect key="frame" x="255" y="344" width="90" height="30"/>
                                 <state key="normal" title="播放网络视频"/>
                                 <connections>
                                     <action selector="playRemoteVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3hB-O0-vYV"/>
@@ -34,17 +34,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gSs-gB-eE3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="172" id="FhA-hN-B2P"/>
+                            <constraint firstItem="gSs-gB-eE3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="FhA-hN-B2P"/>
                             <constraint firstItem="0h2-xo-tr1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kq5-YH-ckD"/>
                             <constraint firstItem="gSs-gB-eE3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oai-Xs-d3y"/>
-                            <constraint firstItem="0h2-xo-tr1" firstAttribute="top" secondItem="gSs-gB-eE3" secondAttribute="bottom" constant="124" id="wDa-w8-h9D"/>
+                            <constraint firstItem="0h2-xo-tr1" firstAttribute="top" secondItem="gSs-gB-eE3" secondAttribute="bottom" constant="100" id="wDa-w8-h9D"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jbQ-LN-kYm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066" y="304"/>
+            <point key="canvasLocation" x="1097" y="216"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jBF-7u-KtU">
